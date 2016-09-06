@@ -11,9 +11,10 @@ public class Main2Activity extends AppCompatActivity {
 
     private String videoPath;
     private MediaPlayer mediaPlayer;
+    private SurfaceView surfaceView;
+
     private boolean isPrepared; // 是否准备好
 
-    private SurfaceView surfaceView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
